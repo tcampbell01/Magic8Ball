@@ -17,10 +17,55 @@
 
     <title>Magic 8 Ball </title>
 </head>
-
+<header>
+    <div class = "container-fluid" id = "header-container">
+        <p>Welcome to the Magic 8 Ball! Step Right Up and Reveal Your Future!
+            <br>
+            <br>
+            Click the Magic 8 Ball to begin.
+        </p>
+</header>
 <body>
 
+<div class = "container1">
+    <div class = "row1">
+        <div class = "col-6">
+            <img src = "./img/magic 8 ball.jpg" id = "magic8-img" alt = "a picture of a magic 8 ball" style="width:600px;height:600px">
+        </div>
+        <div class = "col-6" id = "text-column">
+        <p>
+            Welcome! First, the Magic 8 Ball needs to know who you are! 
+        </p>
+           </div>
+        </div>
+    
+    <div class = "row2">
+        <div class = "col-12">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Please Enter Your Name and Click Enter.</span>
+                </div>
+                <input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1" id = "name-box">
+                <button type="button" class="btn btn-success btn-lg" id = "enter-button1">Enter</button>
+              </div>
+        </div>
+    </div>
 
+    <div class = "row3">
+        <div class = "col-12">
+            <div class="input-group" id = "question-input">
+                <div class="input-group-prepend" id = "question-box">
+                  <span class="input-group-text" id="basic-addon2">Hello, Name. Please enter your question and click Enter.</span>
+                </div>
+                <input type="text" class="form-control" id = "question-text" placeholder="Question" aria-label="question" aria-describedby="basic-addon1" id = "question-box">
+                <button type="button" class="btn btn-success btn-lg" id = "enter-button2">Enter</button>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
 
 </body>
 </html>
