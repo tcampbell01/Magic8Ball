@@ -4,3 +4,7 @@ var nameBoxEl = document.querySelector("#name-box");
 var enterButton1 = document.querySelector("#enter-button1");
 var enterButton2 = document.querySelector("#enter-button2");
 var questionBoxEl = document.querySelector("#question-box")
+
+ document.getElementById("eightBallEl").onclick = function beginGame () {
+    
+ }
